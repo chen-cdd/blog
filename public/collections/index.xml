@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Collections - 合集 - ✨  ✨</title>
-    <link>http://localhost:1313/collections/</link>
+    <link>https://chen-cdd.github.io/collections/</link>
     <description>✨  ✨</description>
     <generator>Hugo 0.145.0 &amp; FixIt v0.3.17-8b402129</generator>
     <language>zh-CN</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/collections/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://chen-cdd.github.io/collections/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
