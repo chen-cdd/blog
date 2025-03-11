@@ -9,10 +9,10 @@
 # -------------------------------------------------------------------------------------
 
 # 网站标题
-title = "✨ Charlotte's Blog ✨"
-# Hostname (and path) to the root
+title = "✨  ✨"
+
 baseURL = "https://chen-cdd.github.io"
-# baseURL = "https://leegical.github.io/"
+# baseURL = "https://chen-cdd.github.io/"
 # 更改使用 Hugo 构建网站时使用的默认主题
 theme = ["FixIt"]
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
@@ -24,7 +24,7 @@ languageName = "简体中文"
 # 是否包括中日韩文字
 hasCJKLanguage = true
 # default amount of posts in each pages
-paginate = 12
+pagerSize = 12
 # copyright description used only for seo schema
 copyright = ""
 # whether to use robots.txt
@@ -102,9 +102,9 @@ enableEmoji = true
   # ["sha256", "sha384", "sha512", "md5"]
   fingerprint = "sha256"
   #  日期格式
-  dateFormat = "2006-01-02"
+  dateFormat = "2025-03-11"
   # 网站图片，用于 Open Graph 和 Twitter Cards
-  images = ["/logo.png"]
+  images = ["/assets/logo.png"]
   #  开启 PWA 支持
   enablePWA = true
   #  是否自动显示外链图标
@@ -123,7 +123,7 @@ enableEmoji = true
   # 应用图标配置
   [params.app]
     # 当添加到 iOS 主屏幕或者 Android 启动器时的标题，覆盖默认标题
-    title = "Leehow的小站"
+    title = "Charlotte's Blog"
     # 是否隐藏网站图标资源链接
     noFavicon = false
     # 更现代的 SVG 网站图标，可替代旧的 .png 和 .ico 文件
@@ -181,7 +181,7 @@ enableEmoji = true
       # LOGO 的 URL
       logo = "/logo.png"
       # 标题名称
-      name = "Leehow的小站"
+      name = "✨Hello✨"
       # 你可以在名称（允许 HTML 格式）之前添加其他信息，例如图标
       pre = ""
       # 你可以在名称（允许 HTML 格式）之后添加其他信息，例如图标
@@ -214,7 +214,7 @@ enableEmoji = true
     #  是否显示作者
     author = true
     # 网站创立年份
-    since = 2019
+    since = 2025
     #  是否显示网站内容总字数
     wordCount = true
     #  公网安备信息，仅在中国使用（支持 HTML 格式）
@@ -229,7 +229,7 @@ enableEmoji = true
       animate = true
       icon = "fa-solid fa-heartbeat"
       pre = ""
-      value = "2018-02-06T11:15:22+08:00" # e.g. "2021-12-18T16:15:22+08:00"
+      value = "2025-01-01T01:01:01+08:00" # e.g. "2021-12-18T16:15:22+08:00"
     #  页面底部行排序，可选值：["first", 0, 1, 2, 3, 4, 5, "last"]
     [params.footer.order]
       powered = 0
@@ -284,7 +284,7 @@ enableEmoji = true
       #  头像菜单链接的 identifier
       avatarMenu = ""
       #  主页显示的网站标题（支持 HTML 格式）
-      title = "Leehow的小站"
+      title = "Charlotte's Blog"
       # 主页显示的网站副标题
       subtitle = "色相事一刹那，光阴里无尽藏"
       # 是否为副标题显示打字机动画
@@ -301,8 +301,8 @@ enableEmoji = true
 
   # FixIt 0.2.16 | CHANGED Social config about the author
   [params.social]
-    GitHub = ""
-    Linkedin = ""
+    GitHub = "chen-cdd"
+    Linkedin = "weiduo-chen-b8865a2a8"
     Twitter = ""
     Instagram = ""
     Facebook = ""
@@ -952,7 +952,7 @@ enableEmoji = true
 # -------------------------------------------------------------------------------------
 # 隐私信息配置 (https://gohugo.io/about/hugo-and-gdpr/)
 [privacy]
-  [privacy.twitter]
+  [privacy.x]
     enableDNT = true
   [privacy.youtube]
     privacyEnhanced = true
